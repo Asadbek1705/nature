@@ -41,7 +41,7 @@ body {
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 /*  */
@@ -114,6 +114,7 @@ section {
 }
 .text-timon {
   position: relative;
+  padding: 28px;
 }
 .text-timon * {
   color: white;
@@ -123,7 +124,7 @@ section {
 }
 .text-timon span {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   right: 50px;
   font-size: 18px;
   font-weight: 300;
@@ -148,4 +149,52 @@ section {
 }
 .help:hover {
   background-color: rgb(223, 223, 223);
+}
+
+/*  */
+
+.mission {
+  margin-top: 80px;
+  max-height: 50vh;
+}
+.mission-inner {
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  align-items: center;
+}
+.img-lion img {
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 30px;
+  aspect-ratio: 1;
+}
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 600px;
+  gap: 30px;
+  align-items: center;
+}
+
+.mission-title h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.mission-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+}
+.help-button {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #bc5e28;
+  font-size: 20px;
+  padding: 10px 14px;
+  width: 600px;
+}
+.help-button:hover {
+  background-color: #a04a19;
+  border: 1px solid black;
 }

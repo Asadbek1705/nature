@@ -160,7 +160,7 @@ section {
 .mission-inner {
   display: flex;
   justify-content: space-around;
-  gap: 200px;
+  gap: 100px;
   align-items: center;
 }
 .img-lion img {
@@ -197,4 +197,37 @@ section {
 .help-button:hover {
   background-color: #a04a19;
   border: 1px solid black;
+}
+
+/*  */
+
+.stats-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.big-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mini-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.mini-stat h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #3e3e3e;
+}
+.mini-stat p {
+  font-size: 26px;
+  font-weight: 300;
+  color: #3e3e3e;
 }

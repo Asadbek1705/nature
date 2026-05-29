@@ -307,23 +307,31 @@
               </ul>
             </div>
             <div class="footer-news">
-              <p>Подписаться на новости</p>
-              <form>
-                <input type="email" placeholder="Введите ваш почтовый адрес" />
-                <input type="checkbox" />Согласен с обработкой персональных
-                данных.
-              </form>
-
+              <div class="footer-news-text">
+                <p>Подписаться на новости</p>
+                <form class="email-adress">
+                  <input
+                    type="email"
+                    placeholder="Введите ваш почтовый адрес"
+                  />
+                  <div class="input-footer">
+                    <input type="checkbox" />
+                    <span>Согласен с обработкой персональных данных.</span>
+                  </div>
+                </form>
+              </div>
               <div class="tg-vk-btn">
-                <button>VK</button>
-                <button>TEELEGRAM</button>
+                <button><a href="#">VK</a></button>
+                <button><a href="#">TEELEGRAM</a></button>
               </div>
             </div>
           </div>
           <div class="inner-down">
             <div class="footer-logo">
-              <img src="/photos/panda.png" alt="panda " />
-              <img src="/photos/c.png" alt="cdnjs" />
+              <div class="panda-footer">
+                <img src="/photos/panda.png" alt="panda" />
+              </div>
+              <img src="/photos/c.png" alt="cdnjs" id="c" />
               <p>WHH</p>
             </div>
             <div class="inner-down-right">
